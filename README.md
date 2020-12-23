@@ -93,6 +93,6 @@
 ### 第六题：支持其他操作系统
 - 任选其它操作系统，例如[rcore](https://github.com/rcore-os/rCore), 可以在terminus仿真器上运行
 
-### 第六题：支持riscv vector extension
+### 第七题：支持riscv vector extension
 - 在terminus上增加RVV
 - 能够使用cargo的测试框架通过[riscv-test](https://github.com/riscv/riscv-tests) 中的vector测试 
