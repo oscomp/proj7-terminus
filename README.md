@@ -70,7 +70,8 @@
 
 ### 第二题：支持调试能力
 
-- 对terminus增加基于OCD的调试功能
+- 对terminus增加基于OPENOCD+GDB的调试功能
+- 能够使用cargo的测试框架通过[riscv-test/debug](https://github.com/riscv/riscv-tests/tree/master/debug) 的所有test
 - 能够通过GDB/LLDB来在terminus上对APP(U态)、OS(S态)、SBI（M态）进行源码级调试
 - 能够跨U/S/M态综合调试APP/OS/SBI
 - 撰写实验设计与分析文档
@@ -84,3 +85,10 @@
 
 - 支持对Kendryte K210开发板的模拟
 - 支持对SFIVE开发板的模拟
+
+### 第五题：支持OPENSBI
+- 移植[opensbi](https://github.com/riscv/opensbi) 支持terminus仿真器
+- 可以通过[opensbi](https://github.com/riscv/opensbi) boot linux
+
+### 第六题：支持其他操作系统
+- 任选其它操作系统，例如[rcore](https://github.com/rcore-os/rCore), 可以在terminus仿真器上运行
