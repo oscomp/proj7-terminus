@@ -9,6 +9,7 @@
 
 当前项目实现源码：
 - https://github.com/shady831213/terminus
+- https://github.com/shady831213/trantor
 
 ### 所属赛道
 
@@ -64,6 +65,7 @@
 
 ### 第一题：分阶段重新实现terminus
 
+- 该题目请参考[trantor](https://github.com/shady831213/trantor), 帮你一步一步实现自己的模拟器
 - 与导师协商，形成一系列的小步骤，参考目前的代码，重新按小步骤实现RISC-V模拟器
 - 在每个步骤完成后，能够有测试用例，并尽量与OS课程中涉及的内容相关
 - 撰写实验设计与分析文档
