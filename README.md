@@ -86,12 +86,12 @@
 - 支持对Kendryte K210开发板的模拟
 - 支持对SFIVE开发板的模拟
 
-### 第五题：支持OPENSBI
-- 移植[opensbi](https://github.com/riscv/opensbi) 支持terminus仿真器
-- 可以通过[opensbi](https://github.com/riscv/opensbi) boot linux
+### 第五题：支持任意一种sbi实现
+- 移植一种sbi实现，例如[opensbi](https://github.com/riscv/opensbi)，到terminus仿真器
+- 可以通过该sib实现 boot linux
 
 ### 第六题：支持其他操作系统
-- 任选其它操作系统，例如[rcore](https://github.com/rcore-os/rCore), 可以在terminus仿真器上运行
+- 任选其它操作系统，例如[rcore](https://github.com/rcore-os/rCore)、[zephyr](https://github.com/zephyrproject-rtos/zephyr), 可以在terminus仿真器上运行
 
 ### 第七题：支持riscv vector extension
 - 在terminus上增加RVV
