@@ -98,3 +98,9 @@
 ### 第七题：支持riscv vector extension
 - 在terminus上增加RVV
 - 能够使用cargo的测试框架通过[riscv-test](https://github.com/riscv/riscv-tests) 中的vector测试 
+
+### 第八题: 支持和verilog/systemverilog模型协同仿真
+- 通过ffi+dpi，使terminus可以运行在verilog/systemverilog环境中
+- 可以在verilog/systemverilog环境中，控制terminus，指定特定core执行特定步长，可以出发terminus的中断，可以获取terminus的状态等
+- 任选rtl simulator, 如verilator, vcs, xrun等
+- 可以尝试实现verilog/systemverilog的device + terminus的协同仿真
