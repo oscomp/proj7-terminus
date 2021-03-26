@@ -49,6 +49,7 @@
 - [x] framebuffer
 - [x] VirtIO keyboard
 - [x] VirtIO mouse
+- [x] Cosimulation with HDL
 
 ### 文档
 
