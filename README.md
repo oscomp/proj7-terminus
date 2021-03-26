@@ -91,6 +91,7 @@
 ### 第五题：支持任意一种sbi实现
 - 移植一种sbi实现，例如[opensbi](https://github.com/riscv/opensbi)，到terminus仿真器
 - 可以通过该sib实现 boot linux
+- 可参考[terminus_bl](https://github.com/shady831213/terminus_bl)
 
 ### 第六题：支持其他操作系统
 - 任选其它操作系统，例如[rcore](https://github.com/rcore-os/rCore)、[zephyr](https://github.com/zephyrproject-rtos/zephyr), 可以在terminus仿真器上运行
@@ -104,3 +105,4 @@
 - 可以在verilog/systemverilog环境中，控制terminus，指定特定core执行特定步长，可以出发terminus的中断，可以获取terminus的状态等
 - 任选rtl simulator, 如verilator, vcs, xrun等
 - 可以尝试实现verilog/systemverilog的device + terminus的协同仿真
+- 可参考[terminus_cosim](https://github.com/shady831213/terminus_cosim), [vfw_rs](https://github.com/shady831213/vfw_rs), [mailbox_rs](https://github.com/shady831213/mailbox_rs)
